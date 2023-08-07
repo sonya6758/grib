@@ -1,0 +1,64 @@
+body {
+    font-family:Bradley Hand, cursive ;
+background-image: linear-gradient(#f3c299,#eba063);
+height: 100vh;}
+h1{ 
+    text-align: center;
+    background-color: rgb(231, 131, 59);
+}
+
+h1:hover{
+color: #A63A00;
+transition: 5s;
+font-size: 50px;
+}
+
+
+
+.img1{
+float:right;
+border-radius: 50%;
+border: 10px groove #833c16;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(255, 143, 63);
+    }
+
+ nav a{
+     text-decoration: none;
+     color: #9e724e;
+     font-size: large;
+     text-shadow: 5px 5px 10px rgb(94, 62, 22);
+ }
+
+ nav{
+   display: flex; 
+    justify-content: space-around;
+ }
+ h2:hover{
+     color: #BF6230;
+transition: 5s;
+font-size: 50px
+ }
+ footer{
+     background-color: rgb(139, 101, 50);
+     width: 100%;
+     height: 70px;
+     padding: 20px;
+     border: 10px groove #833c16;
+     border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
+footer p::before{
+content: url(https://i.postimg.cc/V6czT4XX/free-icon-mushroom-2396864-1.png);
+margin: 4px;
+}
+ footer p::after{
+     content: url(https://i.postimg.cc/PqSMVVgR/free-icon-mushrooms-2519766.png);
+     margin: 5px;
+ }
